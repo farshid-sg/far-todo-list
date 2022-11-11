@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header><h1>todo list</h1></header>
+    <section>
+        <div class="form-container">
+            <form id="frm">
+                <input type="text" id="txt" placeholder="whats your focus for today?">
+                <i class="fas fa-plus-circle" id="adder"></i>
+            </form>
+            <div class="select">
+                <select>
+                    <option value="all">all</option>
+                    <option value="completed">completed</option>
+                    <option value="uncompleted">uncompleted</option>
+
+                </select>
+            </div>
+        </div>
+        <div class="todo-wrapper" id="todoList"></div>
+    </section>
+    <script src="./js/app.js"></script>
+</body>
+</html>
+
